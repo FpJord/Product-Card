@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background-color: hsl(158, 58%, 63%);
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: hsl(30, 38%, 92%);
+    
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.container {
+    width: 630px;
+    height: 450px;
+    border-radius: 15px;
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.left { 
+    width: 600px;
+    height: 100%;
+}
+
+.left > img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 5px 0 0 5px;
+}
+
+.right {
+    margin-left: 30px;
+
+
+}
+
+.right > #subtitle {
+    color: #5c5c5c;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.right > h1 {
+    font-family: 'Fraunces';
+    font-size: 35px;
+    
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 20px;
+
+    line-height: 35px;
+
+}
+
+.right > p {
+    color: #5c5c5c;
+    font-size: 14px;
+
+    margin-bottom: 5px;
+}
+
+.right > .preço {
+    font-family: 'Fraunces';
+    width: 100%;
+
+    display: flex;
+    align-items: center;   
+}
+
+.preço > h1 {
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+}
+
+.preço > h3 {
+    color: #5c5c5cb5;
+    text-decoration: line-through;
+    margin-left: 20px;
+
+}
+
+button {
+    cursor: pointer;
+
+    width: 250px;
+    height: 50px;
+
+    margin-top: 30px;
+    margin-left: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: hsl(158, 36%, 37%);
+    color: #fff;
+
+    font-family: 'Montserrat';
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1s;
+}
+
+button:hover {
+    background-color: hsl(158, 33%, 49%);
+}
+
+button > img {
+    margin-right: 10px;
+}
+
+.textfield {
+    text-align: justify;
+   
+    width: 70%;
+    height: 100%;
+
+    color: #5c5c5c;
+
+    margin-bottom: 30px;
+}
